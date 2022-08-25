@@ -22,14 +22,16 @@ const OrderDelivery = ({ route }) => {
         setDuration(time)
 
         const locations = {
-            streetName: "Street No. 07",
+            streetName: "Chandighar sector 44",
             myLocation: {
-                latitude: 25.410776,
-                longitude: 68.275936
+                latitude: 30.708,
+                longitude: 76.7621
+
             },
             resLocation: {
-                latitude: 25.411011,
-                longitude: 68.271427
+                latitude: 30.751278,
+                longitude: 76.637192
+
             },
         }
 
@@ -46,8 +48,8 @@ const OrderDelivery = ({ route }) => {
         setCurrentRestaurant({
             courier: {
                 avatar: images.avatar,
-                name: "Ahmad",
-                phone: "03342838233"
+                name: "Awasthi",
+                phone: "08054303442"
             }
 
         })
